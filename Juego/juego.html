@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina quien soy</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+
+<body background="assets/pic/f.png"></body>
+    <h1> ¿ADIVINA QUIEN SOY? </h1>
+
+    <input type="image" src="assets/pic/btn1.png" alt=""  id="playJuego" class="btn1">
+
+    <div class="contenedorImg">
+        
+        <img id="imgPersonaje" class="imgPersonaje" src="" alt="">
+    </div>
+
+    <div class="contenedorPreguntas">
+       
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" placeholder="" value="" size="50" id="pregunta0"> </div>
+            <div class="divRespuesta"> <select id="respuesta0">
+                   <option value="" selected = "true" disabled="disabled"> Escoja Respuesta </option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="divIco"> <img id="icoRta0" class= "icoRta" src="" alt=""></div>
+        </div>
+
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" placeholder="" value="" size="50" id="pregunta1"> </div>
+            <div class="divRespuesta"> <select id="respuesta1">
+                <option value="" selected = "true" disabled="disabled"> Escoja Respuesta </option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="divIco"> <img id="icoRta1" class= "icoRta" src="" alt=""></div>
+        </div>
+
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" placeholder="" value="" size="50" id="pregunta2"> </div>
+            <div class="divRespuesta"> <select id="respuesta2">
+                <option value="" selected = "true" disabled="disabled"> Escoja Respuesta </option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="divIco"> <img id="icoRta2" class= "icoRta" src="" alt=""></div>
+        </div>
+
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" placeholder="" value="" size="50" id="pregunta3"> </div>
+            <div class="divRespuesta"> <select id="respuesta3">
+                <option value="" selected = "true" disabled="disabled"> Escoja Respuesta </option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="divIco"> <img id="icoRta3" class= "icoRta" src="" alt=""></div>
+        </div>
+
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" placeholder="" value="" size="50" id="pregunta4"> </div>
+            <div class="divRespuesta"> <select id="respuesta4">
+                <option value="" selected = "true" disabled="disabled"> Escoja Respuesta </option>
+                    <option value="si">Si</option>
+                    <option value="no">no</option>
+                </select>
+            </div>
+            <div class="divIco"> <img id="icoRta4" class= "icoRta" src="" alt=""></div>
+        </div>
+
+     
+
+    </div> 
+
+    <div class="contenedorPreguntas" >
+        <div class="pregunta">
+            <div class="divPregunta"> <input id="respuetaGeneral" type="text" placeholder="Ingrese su respuesta" size="50"> </div>
+            <div class="divRespuesta" id="btnRespuesta">  <button class="btnres" id="btnRespuesta"> Responder </button>
+                
+            </div>
+            <button id="playNext" class="btnres">Siguiente</button>
+        </div>
+    </div>
+
+     <script src="./assets/js/juegoLogic.js"></script>
+</body>
+
+</html>
